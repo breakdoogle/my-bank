@@ -6,13 +6,13 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 import session from 'express-session';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAbbb7-JrjRGhvKtHF2nkWRLTFJUN7mMUw",
-    authDomain: "the-bank-408ff.firebaseapp.com",
-    projectId: "the-bank-408ff",
-    storageBucket: "the-bank-408ff.appspot.com",
-    messagingSenderId: "221200431996",
-    appId: "1:221200431996:web:a15a8826a2568e2a7b02f9"
-  };
+  apiKey: "AIzaSyCDk1MUuKH5gxR4qWmuo4ZacGTGd4Z5D4M",
+  authDomain: "banking-app-new.firebaseapp.com",
+  projectId: "banking-app-new",
+  storageBucket: "banking-app-new.appspot.com",
+  messagingSenderId: "944082671767",
+  appId: "1:944082671767:web:c5c70cfcc13d95456d31d2"
+};
 
 const firebase = initializeApp(firebaseConfig);
 const auth = getAuth(firebase);
