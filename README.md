@@ -28,3 +28,4 @@ This is my attempt at creating a 3 tier banking application for web use which wa
 - In browser navigate to http://localhost:3000
 
 ## License
+[MIT License](https://github.com/breakdoogle/my-bank/blob/main/LICENSE)
